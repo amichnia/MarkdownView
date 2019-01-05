@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0E630AD21E1299400F8D402 /* main_light.css in Resources */ = {isa = PBXBuildFile; fileRef = B0E630AC21E1299400F8D402 /* main_light.css */; };
-		B0E630AF21E129CE00F8D402 /* index_dark.html in Resources */ = {isa = PBXBuildFile; fileRef = B0E630AE21E129CE00F8D402 /* index_dark.html */; };
+		B0614D6421E12E4B000CADAB /* MarkdownView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B0614D6321E12E4B000CADAB /* MarkdownView.podspec */; };
+		B0614D6721E12EE3000CADAB /* index_dark.html in Resources */ = {isa = PBXBuildFile; fileRef = B0614D6521E12EE3000CADAB /* index_dark.html */; };
+		B0614D6821E12EE3000CADAB /* main_light.css in Resources */ = {isa = PBXBuildFile; fileRef = B0614D6621E12EE3000CADAB /* main_light.css */; };
 		FC9CC4C51EC43FA90013238C /* index_light.html in Resources */ = {isa = PBXBuildFile; fileRef = FC9CC4BD1EC43FA90013238C /* index_light.html */; };
 		FC9CC4C61EC43FA90013238C /* main_dark.css in Resources */ = {isa = PBXBuildFile; fileRef = FC9CC4BE1EC43FA90013238C /* main_dark.css */; };
 		FC9CC4C71EC43FA90013238C /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = FC9CC4BF1EC43FA90013238C /* main.js */; };
@@ -17,8 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B0E630AC21E1299400F8D402 /* main_light.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = main_light.css; sourceTree = "<group>"; };
-		B0E630AE21E129CE00F8D402 /* index_dark.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index_dark.html; sourceTree = "<group>"; };
+		B0614D6321E12E4B000CADAB /* MarkdownView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MarkdownView.podspec; sourceTree = "<group>"; };
+		B0614D6521E12EE3000CADAB /* index_dark.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index_dark.html; path = webassets/dist/index_dark.html; sourceTree = SOURCE_ROOT; };
+		B0614D6621E12EE3000CADAB /* main_light.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = main_light.css; path = webassets/dist/main_light.css; sourceTree = SOURCE_ROOT; };
 		FC9CC4BD1EC43FA90013238C /* index_light.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index_light.html; path = webassets/dist/index_light.html; sourceTree = SOURCE_ROOT; };
 		FC9CC4BE1EC43FA90013238C /* main_dark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = main_dark.css; path = webassets/dist/main_dark.css; sourceTree = SOURCE_ROOT; };
 		FC9CC4BF1EC43FA90013238C /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = main.js; path = webassets/dist/main.js; sourceTree = SOURCE_ROOT; };
@@ -44,6 +46,7 @@
 			children = (
 				FCA050171EC41211001DAD5F /* MarkdownView */,
 				FCA050161EC41211001DAD5F /* Products */,
+				B0614D6321E12E4B000CADAB /* MarkdownView.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,11 +72,11 @@
 		FCA050201EC4123C001DAD5F /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				B0614D6521E12EE3000CADAB /* index_dark.html */,
+				B0614D6621E12EE3000CADAB /* main_light.css */,
 				FC9CC4BD1EC43FA90013238C /* index_light.html */,
 				FC9CC4BE1EC43FA90013238C /* main_dark.css */,
 				FC9CC4BF1EC43FA90013238C /* main.js */,
-				B0E630AC21E1299400F8D402 /* main_light.css */,
-				B0E630AE21E129CE00F8D402 /* index_dark.html */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -148,9 +151,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0614D6421E12E4B000CADAB /* MarkdownView.podspec in Resources */,
+				B0614D6821E12EE3000CADAB /* main_light.css in Resources */,
 				FC9CC4C61EC43FA90013238C /* main_dark.css in Resources */,
-				B0E630AD21E1299400F8D402 /* main_light.css in Resources */,
-				B0E630AF21E129CE00F8D402 /* index_dark.html in Resources */,
+				B0614D6721E12EE3000CADAB /* index_dark.html in Resources */,
 				FC9CC4C51EC43FA90013238C /* index_light.html in Resources */,
 				FC9CC4C71EC43FA90013238C /* main.js in Resources */,
 			);
