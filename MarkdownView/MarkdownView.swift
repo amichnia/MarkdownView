@@ -71,7 +71,7 @@ open class MarkdownView: UIView {
     let htmlURL: URL? =
       bundle.url(forResource: visualMode.html,
                  withExtension: "html") ??
-      bundle.url(forResource: "index",
+      bundle.url(forResource: visualMode.html,
                  withExtension: "html",
                  subdirectory: "MarkdownView.bundle")
 
