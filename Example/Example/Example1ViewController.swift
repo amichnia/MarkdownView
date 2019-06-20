@@ -13,6 +13,9 @@ class Example1ViewController: UIViewController {
     mdView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
     mdView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
     mdView.bottomAnchor.constraint(equalTo: bottomLayoutGuide.topAnchor).isActive = true
+    
+    // 使用dark模式
+    mdView.visualMode = .dark
 
     let path = Bundle.main.path(forResource: "sample", ofType: "md")!
 
